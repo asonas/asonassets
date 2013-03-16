@@ -1,0 +1,12 @@
+!!! 5
+%html
+  %head
+    %script(src="./jquery.js")
+    %script(src="./knockout.js")
+    %script(src="./underscore.js")
+    %script(src="./app.js")
+  %body
+    .main(data-bind="text: main")
+    %button(data-bind="click: change")
+      button
+    .hist(data-bind="text: hist")
